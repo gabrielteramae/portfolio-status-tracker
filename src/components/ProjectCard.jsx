@@ -19,11 +19,11 @@ export default function ProjectCard({ project, status, lastChecked, onRecheck })
 
       <div className="card-footer">
         <div className="card-links">
-          <a href={project.githubUrl} target="_blank" rel="noreferrer">
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
           {project.liveUrl && (
-            <a href={project.liveUrl} target="_blank" rel="noreferrer">
+            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
               Ver ao vivo
             </a>
           )}
